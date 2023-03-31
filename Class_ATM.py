@@ -2,7 +2,7 @@ class ATM:
     last_id = 0 # атрибут класса
     all_atms = []
 
-    @classmethod
+    @classmethod # метод класса
     def count_atms(cls):
         print("всего банкоматов" ,len(cls.all_atms))
 
